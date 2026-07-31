@@ -2,168 +2,225 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>facts | Portfolio</title>
+
+    <title>facts | AI Engineer</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-<div class="container">
+    <nav>
 
-    <!-- Hero -->
+        <div class="logo">
+            facts
+        </div>
+
+        <div class="nav-links">
+
+            <a href="#projects">Projects</a>
+
+            <a href="#tech">Tech</a>
+
+            <a href="#about">About</a>
+
+            <a href="https://github.com/straightfacts07" target="_blank">
+
+                GitHub
+
+            </a>
+
+        </div>
+
+    </nav>
+
+    <!-- HERO -->
 
     <section class="hero">
 
-        <small>Portfolio</small>
+        <div class="hero-content">
 
-        <h1>facts</h1>
+            <span class="subtitle">
+                AI Engineer • Backend Developer
+            </span>
 
-        <h2>AI Engineer · Backend Developer</h2>
+            <h1>
 
-        <p>
+                Building scalable backend systems,
+                AI-powered applications,
+                and developer tools.
 
-            I build scalable backend systems,
-            AI-powered applications,
-            and production-ready developer tools.
+            </h1>
 
-        </p>
+            <p>
 
-        <div class="buttons">
+                I enjoy designing production-ready software using FastAPI,
+                PostgreSQL, Docker, AI systems, and modern backend
+                architectures.
 
-            <a href="https://github.com/straightfacts07" target="_blank">
-                GitHub
-            </a>
+            </p>
 
-            <a href="#projects">
-                View Projects
-            </a>
+            <div class="hero-buttons">
+
+                <a class="primary-btn"
+                    href="https://github.com/straightfacts07"
+                    target="_blank">
+
+                    View GitHub
+
+                </a>
+
+                <a class="secondary-btn"
+                    href="#projects">
+
+                    Explore Projects
+
+                </a>
+
+            </div>
 
         </div>
 
     </section>
 
-    <!-- About -->
+    <!-- ABOUT -->
 
-    <section>
+    <section id="about" class="section">
 
-        <h3>About</h3>
+        <div class="section-title">
 
-        <p>
+            <h2>About</h2>
 
-            I enjoy designing backend architectures,
-            building AI applications,
-            working with PostgreSQL,
-            REST APIs,
-            Retrieval-Augmented Generation,
-            and distributed systems.
+            <p>
+                I enjoy building reliable backend systems,
+                AI applications,
+                APIs,
+                and cloud-native software.
 
-            I'm constantly learning new technologies while improving
-            my software engineering and problem-solving skills.
+                My interests include Retrieval-Augmented Generation,
+                system design,
+                distributed systems,
+                databases,
+                and cybersecurity.
+            </p>
 
-        </p>
+        </div>
 
     </section>
 
-    <!-- Projects -->
+    <!-- PROJECTS -->
 
-    <section id="projects">
+    <section id="projects" class="section">
 
-        <h3>Featured Projects</h3>
+        <h2>Featured Projects</h2>
 
-        <div class="project-grid">
+        <div class="projects">
 
-            <div class="project-card">
+            <div class="project">
 
-                <h4>Cloud Drive</h4>
+                <h3>Cloud Drive</h3>
 
                 <p>
 
-                    A Google Drive-inspired cloud storage platform
-                    built with FastAPI and PostgreSQL.
+                    Google Drive-inspired cloud storage platform built with
+                    FastAPI,
+                    PostgreSQL,
+                    JWT authentication,
+                    and Docker.
 
                 </p>
 
-                <div class="tags">
+                <div class="stack">
 
                     <span>FastAPI</span>
+
                     <span>PostgreSQL</span>
+
                     <span>Docker</span>
+
+                    <span>JWT</span>
 
                 </div>
 
             </div>
 
-            <div class="project-card">
+            <div class="project">
 
-                <h4>RAG Chatbot</h4>
+                <h3>RAG Chatbot</h3>
 
                 <p>
 
-                    Retrieval-Augmented Generation chatbot
-                    using LangChain,
-                    ChromaDB,
-                    and OpenAI.
+                    Retrieval-Augmented Generation chatbot capable of
+                    answering questions from uploaded documents.
 
                 </p>
 
-                <div class="tags">
+                <div class="stack">
+
+                    <span>LangChain</span>
+
+                    <span>OpenAI</span>
+
+                    <span>ChromaDB</span>
 
                     <span>Python</span>
-                    <span>LangChain</span>
-                    <span>OpenAI</span>
 
                 </div>
 
             </div>
 
-            <div class="project-card">
+            <div class="project">
 
-                <h4>AI Voice Automation</h4>
+                <h3>Voice Automation Platform</h3>
 
                 <p>
 
-                    Backend services,
+                    AI-powered voice automation backend featuring
                     transcript analytics,
-                    Redis,
+                    Redis caching,
                     callback scheduling,
                     and OpenAI integration.
 
                 </p>
 
-                <div class="tags">
+                <div class="stack">
 
                     <span>Django</span>
+
                     <span>Redis</span>
+
                     <span>OpenAI</span>
 
                 </div>
 
             </div>
 
-            <div class="project-card">
+            <div class="project">
 
-                <h4>Human Activity Detection</h4>
+                <h3>Human Activity Detection</h3>
 
                 <p>
 
-                    Deep learning model
-                    using CNN,
+                    Deep learning project using CNN,
                     BiLSTM,
                     Transformers,
-                    and TensorFlow.
+                    and TensorFlow for abnormal activity detection.
 
                 </p>
 
-                <div class="tags">
+                <div class="stack">
 
                     <span>TensorFlow</span>
-                    <span>CNN</span>
+
                     <span>BiLSTM</span>
+
+                    <span>Transformer</span>
 
                 </div>
 
@@ -173,75 +230,93 @@
 
     </section>
 
-    <!-- Skills -->
+    <!-- TECH -->
 
-    <section>
+    <section id="tech" class="section">
 
-        <h3>Tech Stack</h3>
+        <h2>Tech Stack</h2>
 
-        <div class="skills">
+        <div class="tech-grid">
 
             <span>Python</span>
+
             <span>C++</span>
+
             <span>FastAPI</span>
+
             <span>Django</span>
+
             <span>PostgreSQL</span>
+
             <span>Redis</span>
+
             <span>Docker</span>
+
             <span>Git</span>
+
+            <span>GitHub</span>
+
             <span>LangChain</span>
+
             <span>OpenAI</span>
+
             <span>TensorFlow</span>
+
+            <span>REST APIs</span>
+
+            <span>JWT</span>
+
+            <span>Linux</span>
+
+            <span>Postman</span>
 
         </div>
 
     </section>
 
-    <!-- Interests -->
+    <!-- CURRENTLY -->
 
-    <section>
+    <section class="section">
 
-        <h3>Currently Exploring</h3>
+        <h2>Currently Exploring</h2>
 
-        <ul>
+        <div class="explore">
 
-            <li>Backend Engineering</li>
+            <div>System Design</div>
 
-            <li>Distributed Systems</li>
+            <div>Distributed Systems</div>
 
-            <li>AI Agents</li>
+            <div>Cybersecurity</div>
 
-            <li>System Design</li>
+            <div>Agentic AI</div>
 
-            <li>Cybersecurity</li>
+            <div>Cloud Infrastructure</div>
 
-            <li>Open Source</li>
+            <div>Open Source</div>
 
-        </ul>
+        </div>
 
     </section>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
 
     <footer>
 
+        <h3>facts</h3>
+
         <p>
 
-            GitHub
-
-            <br><br>
-
-            <a href="https://github.com/straightfacts07">
-
-                github.com/straightfacts07
-
-            </a>
+            AI Engineer · Backend Developer
 
         </p>
 
-    </footer>
+        <a href="https://github.com/straightfacts07" target="_blank">
 
-</div>
+            github.com/straightfacts07
+
+        </a>
+
+    </footer>
 
 </body>
 
