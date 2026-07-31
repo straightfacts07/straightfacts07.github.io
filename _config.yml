@@ -1,21 +1,19 @@
-remote_theme: pages-themes/time-machine@v0.2.0
+
+remote_theme: pages-themes/cayman@v0.2.0
 
 plugins:
   - jekyll-remote-theme
 
-title: Facts
-description: AI/ML Enthusiast | Backend Developer | GenAI Engineer
+title: factS
+description: AI Engineer | Backend Developer | Machine Learning Enthusiast
 
-author: Facts
-
-email: your_email@example.com
+author: factS
 
 github_username: straightfacts07
 
 show_downloads: false
 
 markdown: kramdown
-
 highlighter: rouge
 
 timezone: Asia/Kolkata
@@ -27,3 +25,11 @@ exclude:
   - LICENSE
   - Gemfile
   - Gemfile.lock
+
+# Optional SEO
+lang: en
+
+# GitHub Pages settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
