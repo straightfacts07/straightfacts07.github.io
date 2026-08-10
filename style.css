@@ -42,6 +42,10 @@ section {
     color: #999;
 }
 
+.project-link {
+      margin-right: 20px;
+}
+
 article {
     margin: 20px 0;
 }
